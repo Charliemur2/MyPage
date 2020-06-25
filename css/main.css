@@ -1,0 +1,25 @@
+.jumbotron
+{
+	background-color: rgb(172, 184, 63);
+	color: white;
+}
+footer
+{
+	background-color: rgb(187, 228, 76);
+	padding: 10px 10px 0 10px;
+	margin-top: 10px;
+
+}
+.btn-primary
+{
+	background-color: royalblue;
+}
+.card-albums
+{
+	flex: 1 150px;
+	padding: 2px 4px 2px 4px;
+}
+.btn-listen
+{
+	width: 100%;
+}
