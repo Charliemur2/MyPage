@@ -21,10 +21,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-          <li class="nav-item active"><a class="nav-link" href="#">Demos</a></li>
+          <li class="nav-item"><a class="nav-link" href="./demos.html">Demos</a></li>
           <li class="nav-item"><a class="nav-link" href="./imagenes.html">Imagenes</a></li>
           <li class="nav-item"><a class="nav-link" href="./videos.html">Videos</a></li>
-          <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+          <li class="nav-item active"><a class="nav-link" href="./contacto.html">Contactos</a></li>
         </ul>
       </div>
     </nav>
@@ -35,12 +35,53 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Demos</li>
+          <li class="breadcrumb-item active" aria-current="page">Contacto</li>
         </ol>
       </nav>
-      <span>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolores nulla voluptates quisquam sapiente mollitia error voluptatem cupiditate, deleniti praesentium atque illum nesciunt facere harum dolorem voluptatum reiciendis explicabo dignissimos!
-      </span>
+      <h1>Deja tus comentarios</h1>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-sm-6">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="Ingrese su Nombre">
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="last_name">Apellido</label>
+            <input type="text" class="form-control" id="last_name" placeholder="Ingrese su Apellido">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="text" class="form-control" id="email" placeholder="Ingrese su E-mail">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-9">
+            <label for="address">Direccion</label>
+            <input type="text" class="form-control" id="address" placeholder="Ingrese su Direccion">
+          </div>
+          <div class="form-group col-sm-3">
+            <label for="country">Pais</label>
+            <select id="name" class="form-control">
+              <option selected>Colombia</option>
+              <option>Mexico</option>
+              <option>Estados Unidos</option>
+              <option>Alemania</option>
+              <option>Australia</option>
+            </select>            
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="comment">Comentario</label>
+          <textarea id="comment" class="form-control" rows="6"></textarea>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">Quiero que me contacten</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary"> Enviar</button>
+      </form>
     </div>
 
     <footer>
@@ -62,7 +103,7 @@
           <a href="./demos.html"> Demos </a>
           <a href="./imagenes.html"> Imagenes </a>
           <a href="./videos.html"> Videos </a>
-          <a href="./contacto.html"> Contacto </a>
+          <a href="./contacto.html"> Contactos </a>
         </div>
       </div>
     </footer>
