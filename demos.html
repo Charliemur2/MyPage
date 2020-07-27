@@ -40,7 +40,10 @@
       </nav>
       <ul class="nav nav-pills" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="servicios-tab" data-toggle="pill" href="#servicios" role="tab" aria-controls="servicios" aria-selected="true">Servicios</a>
+          <a class="nav-link active" id="Explicacion_servicios-tab" data-toggle="pill" href="#Explicacion_servicios" role="tab" aria-controls="Explicacion_servicios" aria-selected="true">Explicacion Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="servicios-tab" data-toggle="pill" href="#servicios" role="tab" aria-controls="servicios" aria-selected="true">Servicios</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="serviciosPro-tab" data-toggle="pill" href="#serviciosPro" role="tab" aria-controls="serviciosPro" aria-selected="false">ServiciosPro</a>
@@ -50,7 +53,81 @@
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="servicios" role="tabpanel" aria-labelledby="servicios-tab">
+        <div class="tab-pane fade show active" id="Explicacion_servicios" role="tabpanel" aria-labelledby="Explicacion_servicios-tab">
+          <div class="accordion" id="accordionExplicacion_servicios">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTranscripciones" aria-expanded="true" aria-controls="collapseTranscripciones">
+                    Transcripciones
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTranscripciones" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExplicacion_servicios">
+                <div class="card-body">
+                  Transcripción de una pieza musical. Opcion 1: Shart. Opcion 2: Partes. Precio varia segun opciones.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTow">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseGrabaciones" aria-expanded="false" aria-controls="collapseGrabaciones">
+                    Grabaciones
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseGrabaciones" class="collapse" aria-labelledby="headingTow" data-parent="#accordionExplicacion_servicios">
+                <div class="card-body">
+                  Grabacion de guitarras, por tracks. Acusticas, Electricas y otros instrumentos de cuerda.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseClases" aria-expanded="false" aria-controls="collapseClases">
+                    Clases
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseClases" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExplicacion_servicios">
+                <div class="card-body">
+                  Clases de teoria y/o guitarra tanto prescenciales como remotas, dependiendo de la locación.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseArreglos" aria-expanded="false" aria-controls="collapseArreglos">
+                    Arreglos Muiscales
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseArreglos" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExplicacion_servicios">
+                <div class="card-body">
+                  Arreglos musicales de diferentes estilos. Opcion 1: Shart general de arreglos sencillo con cortes, armonia y grooves. Opcion 2: Partes de arreglo completo.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseMaquetas" aria-expanded="false" aria-controls="collapseMaquetas">
+                    Maquetas
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseMaquetas" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExplicacion_servicios">
+                <div class="card-body">
+                  Pre-produccion completa de piezas musicales.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="servicios" role="tabpanel" aria-labelledby="servicios-tab">
           <div class="table-responsive">
             <table class="table table-striped">
               <thead class="thead-dark">
