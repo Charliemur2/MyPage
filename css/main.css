@@ -40,3 +40,7 @@ footer
 	width: 100%;
 	padding: 8px 0px 8px 0px;
 }
+.tab-content
+{
+	padding-top: 10px;
+}

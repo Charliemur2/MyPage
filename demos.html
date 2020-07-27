@@ -38,46 +38,104 @@
           <li class="breadcrumb-item active" aria-current="page">Costos</li>
         </ol>
       </nav>
-      <div class="table-responsive">
-        <table class="table table-striped">
-          <thead class="thead-dark">
-            <th>Servicio</th>
-            <th>Transcripciones</th>
-            <th>Grabaciones</th>
-            <th>Clases/Teoria</th>
-            <th>Clases/Guitarra</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td><span class="oi oi-dollar"> Precio</span></td>
-              <td>USD 30 *</td>
-              <td>USD 100/por Track</td>
-              <td>USD 25</td>
-              <td>USD 30</td>
-            </tr>
-            <tr>
-              <td><span class="oi oi-clock"> Tiempo</span></td>
-              <td>2 a 3 dias</td>
-              <td>2 dias</td>
-              <td>1 Hora</td>
-              <td>1 Hora</td>
-            </tr>
-            <tr>
-              <td><span class="oi oi-credit-card"> Pago</span></td>
-              <td>50/50</td>
-              <td>50/50</td>
-              <td>Mensual/4 clases</td>
-              <td>Mensual/4 clases</td>
-            </tr>
-            <tr>
-              <td><span class="oi oi-thumb-up"></span> Demo</td>
-              <td>No</td>
-              <td>No</td>
-              <td>Primera clase</td>
-              <td>Primera clase</td>
-            </tr>
-          </tbody>
-        </table>
+      <ul class="nav nav-pills" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="servicios-tab" data-toggle="pill" href="#servicios" role="tab" aria-controls="servicios" aria-selected="true">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="serviciosPro-tab" data-toggle="pill" href="#serviciosPro" role="tab" aria-controls="serviciosPro" aria-selected="false">ServiciosPro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="serviciosCustom-tab" data-toggle="pill" href="#serviciosCustom" role="tab" aria-controls="serviciosCustom" aria-selected="false">ServiciosCustom</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="servicios" role="tabpanel" aria-labelledby="servicios-tab">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <th>Servicio</th>
+                <th>Transcripciones</th>
+                <th>Grabaciones</th>
+                <th>Clases/Teoria</th>
+                <th>Clases/Guitarra</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="oi oi-dollar"> Precio</span></td>
+                  <td>USD 30 *</td>
+                  <td>USD 100/por Track</td>
+                  <td>USD 25</td>
+                  <td>USD 30</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-clock"> Tiempo</span></td>
+                  <td>2 a 3 dias</td>
+                  <td>2 dias</td>
+                  <td>1 Hora</td>
+                  <td>1 Hora</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-credit-card"> Pago</span></td>
+                  <td>50/50</td>
+                  <td>50/50</td>
+                  <td>Mensual/4 clases</td>
+                  <td>Mensual/4 clases</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-thumb-up"></span> Demo</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>Primera clase</td>
+                  <td>Primera clase</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="serviciosPro" role="tabpanel" aria-labelledby="serviciosPro-tab">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <th>Servicio</th>
+                <th>Arreglos(Simple Shart)</th>
+                <th>Arreglos(Partes por cada instrumento)</th>
+                <th>Maquetas (Pre-Produccion)</th>                
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="oi oi-dollar"> Precio</span></td>
+                  <td>USD 30 </td>
+                  <td>USD 80 </td>
+                  <td>USD 200</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-clock"> Tiempo</span></td>
+                  <td>1 dia</td>
+                  <td>2 a 3 dias</td>
+                  <td>4 dias</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-credit-card"> Pago</span></td>
+                  <td>50/50</td>
+                  <td>50/50</td>
+                  <td>50/50</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-thumb-up"></span> Demo</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="serviciosCustom" role="tabpanel" aria-labelledby="serviciosCustom-tab">Explicanos qué necesitas
+          <div class="form-group">
+            <textarea id="custom" class="form-control" rows="6"></textarea>
+          </div>
+        </div>
       </div>
     </div>
 
