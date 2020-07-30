@@ -1,0 +1,52 @@
+.jumbotron {
+  background-color: #F03625;
+  color: white;
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px; }
+
+footer {
+  background-color: #B6D991;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px; }
+
+.btn-primary {
+  background-color: royalblue; }
+
+.card-albums {
+  flex: 1 300px;
+  padding-top: 2px;
+  padding-right: 0px;
+  padding-bottom: 4px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 2px;
+  margin-bottom: 0px;
+  margin-left: 2px; }
+
+.btn-listen {
+  width: 100%;
+  border-radius: 0%; }
+
+.footer-address-icon {
+  padding-right: 10px; }
+
+.card-img-top {
+  padding: 8px; }
+
+.img-prinpal {
+  width: 100%;
+  padding: 8px 0px 8px 0px; }
+
+.tab-content {
+  padding-top: 10px; }
+
+.btn-colla {
+  padding: 8px; }

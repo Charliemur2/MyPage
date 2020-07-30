@@ -1,0 +1,58 @@
+@red: #F03625;
+@green: #B6D991;
+@blue: royalblue;
+
+.margins(@top, @right, @bottom, @left ){
+    margin-top: @top;
+    margin-right: @right;
+    margin-bottom: @bottom;
+    margin-left: @left; 
+}
+.paddings(@ptop, @pright, @pbottom, @pleft ){
+    padding-top: @ptop;
+    padding-right: @pright;
+    padding-bottom: @pbottom;
+    padding-left: @pleft; 
+}
+
+.jumbotron {
+    background-color: @red;
+    color: white;
+    .margins(50px, 0px, 10px, 0px);
+}
+  
+  footer {
+    background-color: @green;
+    .paddings(10px, 10px, 0px, 10px);
+    .margins(10px, 0px, 0px, 0px);
+  }
+  
+  .btn-primary {
+    background-color: @blue; }
+  
+  .card-albums {
+    flex: 1 300px;
+    @include paddings(2px, 0px, 4px, 0px);
+	@include margins(0px, 2px, 0px, 2px);
+}
+  
+  .btn-listen {
+    width: 100%;
+    border-radius: 0%; }
+  
+  .footer-address-icon {
+    padding-right: 10px; }
+  
+  .card-img-top {
+    padding: 8px; }
+  
+  .img-prinpal {
+    width: 100%;
+    padding: 8px 0px 8px 0px; }
+  
+  .tab-content {
+    padding-top: 10px; }
+  
+  .btn-colla {
+    .paddings(8px, 8px, 8px, 8px); 
+}
