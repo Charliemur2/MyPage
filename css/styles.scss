@@ -25,7 +25,7 @@ $green: #B6D991;
 footer
 {
 	background-color: $green;
-	@include paddings(10px, 10px, 0px, 10px)
+	@include paddings(10px, 10px, 0px, 10px);
 	@include margins(10px, 0px, 0px, 0px);
 
 }
@@ -36,8 +36,8 @@ footer
 .card-albums
 {
 	flex: 1 300px;
-	@include paddings(2px, 0px, 4px, 0px)
-	@include margins(0px, 2px, 0px, 2px)
+	@include paddings(2px, 0px, 4px, 0px);
+	@include margins(0px, 2px, 0px, 2px);
 }
 .btn-listen
 {
